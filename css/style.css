@@ -35,6 +35,11 @@
     font-weight: bold;
 }
 
+.title-secpg {
+    padding: 10px 0 30px 0;
+    color: darkslategray;
+}
+
 .title_second {
     color: darkred;
     font-size: 30px;
