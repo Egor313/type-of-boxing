@@ -29,9 +29,9 @@
 }
 
 .title {
-    color: grey; 
+    color: darkgray; 
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -39,6 +39,11 @@
     color: darkred;
     font-size: 30px;
     font-weight: bold;
+}
+
+.color {
+    color: darkblue;
+    font-size: 25px;
 }
 
 /* .text_blocks + .text_blocks {
@@ -55,6 +60,10 @@
     margin-top: 50px;
 }
 
+.photo-border {
+    border: 3px solid darkred;
+    padding: 20px;
+}
 
 
 /* First block */
