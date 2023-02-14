@@ -1,0 +1,92 @@
+@import url('reset.css');
+
+.back {
+    background: lightgray
+}
+
+.wrapper{
+    width: 1200px;
+    border: 3px solid darkred;
+    margin: 0 auto;
+    padding-top: 110px;
+    background: url('../images/title_1.jpg');
+}
+
+.wrapper > div {
+    padding-left: 70px;
+}
+
+.center {
+    text-align: center;
+}
+
+.block {
+    background: white; 
+    padding-top: 30px; 
+    /* padding-left: 70px; */
+}
+
+.title {
+    color: grey; 
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.title_second {
+    color: darkred;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* .text_blocks + .text_blocks {
+    border: 3px solid darkblue;
+} */
+
+.text_blocks {
+    color: grey; 
+    font-weight: bold;
+    border: 3px solid darkred;
+}
+
+.text_blocks + div {
+    margin-top: 50px;
+}
+
+
+
+/* First block */
+.header {
+    margin-right: 30px
+}
+
+/* Second block */
+.body {
+    margin-top: 50px; 
+    margin-right: 30px; 
+    padding-bottom: 50px
+}
+
+.body .text_blocks {
+    border: 3px solid darkblue;
+}
+
+/* ---------Second Page----------- */
+
+.backstyle_sec {
+    background: white;
+    padding: 40px 0 40px 0;
+}
+
+.title_secondp_pg {
+    margin-left: 50px
+}
+
+.blockstyle {
+    margin-left: 70px;
+    margin-right: 30px
+}
+
+.blockstyle + .blockstyle {
+    margin-top: 40px;
+}
